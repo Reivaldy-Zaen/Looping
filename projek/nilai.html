@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let jalur = 'rapot';
+        let nilai = prompt('masukin nilai dlu bos');
+
+
+        if (nilai >= 90 && nilai <= 100) {
+            hasil = 'masuk ke jalur sempurna'
+        } else if (nilai >= 75 && nilai <= 89) {
+            if (jalur == 'prestasi') {
+                hasil = 'kamu masuk ke jalur prestasi'
+            } else {
+                hasil = 'kamu masuk ke jalur rapot'
+            }
+        }
+
+        else {
+            hasil = 'remed dlu bos'
+        }
+
+        console.log(hasil)
+    </script>
+</body>
+
+</html>
